@@ -1,0 +1,26 @@
+management:
+  security:
+    enabled: true
+
+
+spring:
+  resources:
+    chain:
+      enabled: true
+ 
+ 
+ 
+ 
+ 
+spring:
+  profiles:
+    active:
+    - redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    
+
+  
+  
+ 
